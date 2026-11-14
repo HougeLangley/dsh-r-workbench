@@ -1,0 +1,45 @@
+{
+  "name": "dsh-r-workbench",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "DSH plugin for R-based data acquisition, cleaning, value gating, statistical analysis, and reporting.",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "r",
+    "locale/*.json",
+    "docs",
+    "icon.svg",
+    "README.md",
+    "cordis.patch.yml",
+    "LICENSE",
+    "assets"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HougeLangley/dsh-r-workbench.git"
+  },
+  "homepage": "https://github.com/HougeLangley/dsh-r-workbench#readme",
+  "bugs": {
+    "url": "https://github.com/HougeLangley/dsh-r-workbench/issues"
+  },
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "r",
+    "data-analysis",
+    "statistics",
+    "reporting"
+  ]
+}

@@ -1,0 +1,4 @@
+node_modules/
+r-workbench-runs/
+*.log
+.DS_Store

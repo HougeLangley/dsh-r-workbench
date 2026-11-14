@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "R Workbench",
+    "description": "Acquire, clean, value-gate, analyze, and report data with R, and stop explicitly when the data cannot support a meaningful analysis.",
+    "detail": "docs/DETAIL.md"
+  }
+}

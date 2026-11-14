@@ -1,0 +1,4 @@
+- insert:
+    - id: r-workbench
+      name: 'dsh-r-workbench'
+      config: {}
